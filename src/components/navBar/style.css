@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  margin: 0px 0px 0px 0px
+}
+
+#navBar {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  background-color: black;
+  height: 60px;
+  opacity: 70%;
+}
+
+.link {
+  color: aqua;
+  margin: 5px 5px 5px 5px;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+.link:hover {
+  background-color: red;
+  opacity: 70%;
+  transition: 0.8s ease;
+}
+
+.current {
+  colour: white;
+}
